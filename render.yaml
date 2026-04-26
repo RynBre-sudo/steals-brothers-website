@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: steals-brothers-website
+    env: python
+    plan: free
+    pythonVersion: 3.11
+    buildCommand: pip install -r requirements.txt
+    startCommand: python steals_brothers_multipage.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11

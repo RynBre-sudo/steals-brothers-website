@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "framework": "other",
+  "functions": {
+    "steals_brothers_multipage.py": {
+      "runtime": "python3.11"
+    }
+  }
+}
